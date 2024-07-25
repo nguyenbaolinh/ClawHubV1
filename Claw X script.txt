@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.2", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
 	Content = "NguyenBaoLinh✅| By Giang#4854",
@@ -183,13 +183,40 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "REDzHUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Soon..."
+})
+
+local Tab = Window:MakeTab({
+	Name = "Pop It",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Soon..."
+})
+
+local Tab = Window:MakeTab({
 	Name = "Update Check",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "New Bypass AntiBan v3 ✅"
+	Name = "New Bypass AntiBan v4 ✅"
 })
 
 local Section = Tab:AddSection({
@@ -197,9 +224,17 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "Add New Fake Donate ✅"
+	Name = "Add New Blade Ball ✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "New ClawHub v1.2 ✅"
+	Name = "Add New Pop It ❌"
+})
+
+local Section = Tab:AddSection({
+	Name = "New ClawHub v1.3✅"
+})
+
+local Section = Tab:AddSection({
+	Name = "ClawHub v1.3.1 Soon📝"
 })
