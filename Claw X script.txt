@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.0", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.1", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
 	Content = "NguyenBaoLinh| By Giang#4854",
@@ -93,6 +93,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Sander X V2",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "JuiHub",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
@@ -147,4 +154,35 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
   	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Evade",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Tbao Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Update Check",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "New Bypass AntiBan✅"
+})
+
+local Section = Tab:AddSection({
+	Name = "New Script Evade✅"
+})
+
+local Section = Tab:AddSection({
+	Name = "ClawHub V1.1 New✅"
 })
