@@ -195,8 +195,11 @@ Tab:AddButton({
   	end    
 })
 
-local Section = Tab:AddSection({
-	Name = "Soon..."
+Tab:AddButton({
+	Name = "Soon...",
+	Callback = function()
+      		print("wait v1.3.1")
+  	end    
 })
 
 local Tab = Window:MakeTab({
@@ -205,8 +208,11 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Section = Tab:AddSection({
-	Name = "Soon..."
+Tab:AddButton({
+	Name = "Soon...",
+	Callback = function()
+      		print("wait v1.3.1")
+  	end    
 })
 
 local Tab = Window:MakeTab({
