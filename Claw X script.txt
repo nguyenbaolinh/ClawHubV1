@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.1", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.2", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
-	Content = "NguyenBaoLinh| By Giang#4854",
+	Content = "NguyenBaoLinh✅| By Giang#4854",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -170,19 +170,36 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "PLS Donate",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Fake Donate",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tuba8890/tubhub/main/DNY8oDv9ey/loader.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Update Check",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "New Bypass AntiBan✅"
+	Name = "New Bypass AntiBan v3✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "New Script Evade✅"
+	Name = "Safe 100%✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "ClawHub V1.1 New✅"
+	Name = "Add New Fake Donate✅"
+})
+
+local Section = Tab:AddSection({
+	Name = "New ClawHub v1.2✅"
 })
