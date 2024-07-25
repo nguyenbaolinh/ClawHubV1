@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.0", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
-	Content = "NguyenBaoLinh🤪👑😳| By IDK#4854",
+	Content = "NguyenBaoLinh| By Giang#4854",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -129,15 +129,22 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "Min Gaming (Ting Vit)",
-	Callback = function()
-      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()�
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Murder Mystery 2",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Kidachi",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nexus",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
+  	end    
 })
