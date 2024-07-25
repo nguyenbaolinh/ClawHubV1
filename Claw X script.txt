@@ -189,17 +189,17 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "New Bypass AntiBan v3✅"
+	Name = "New Bypass AntiBan v3 ✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "Safe 100%✅"
+	Name = "Safe 100% ✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "Add New Fake Donate✅"
+	Name = "Add New Fake Donate ✅"
 })
 
 local Section = Tab:AddSection({
-	Name = "New ClawHub v1.2✅"
+	Name = "New ClawHub v1.2 ✅"
 })
