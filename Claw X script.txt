@@ -235,7 +235,7 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "Add New Pop It 🟢"
+	Name = "Add New Pop It 🔴"
 })
 
 local Section = Tab:AddSection({
