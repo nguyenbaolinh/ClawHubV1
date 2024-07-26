@@ -1,77 +1,246 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3.1| 👑By Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3| By ðŸ‘‘Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
- Name = "Claw AI",
- Content = "NguyenBaoLinh ✅| By Giang#4854",
- Image = "rbxassetid://4483345998",
- Time = 5
+	Name = "Claw AI",
+	Content = "NguyenBaoLinh | By Giang#4854",
+	Image = "rbxassetid://4483345998",
+	Time = 5
 })
 
 local Tab = Window:MakeTab({
- Name = "Universe",
- Icon = "rbxassetid://4483345998",
- PremiumOnly = false
+	Name = "Universe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
- Name = "Chat Command"
+	Name = "Chat Command"
 })
 
 Tab:AddButton({
- Name = "Infinite Yield",
- Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-   end    
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
 })
 
 local Section = Tab:AddSection({
- Name = "FE Character"
+	Name = "FE Character"
 })
 
 Tab:AddButton({
- Name = "Infinite Jump",
- Callback = function()
-        local InfiniteJumpEnabled = true
+	Name = "Infinite Jump",
+	Callback = function()
+      		local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
- if InfiniteJumpEnabled then
-  game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
- end
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
 end)
-   end
+  	end
 })
 
 Tab:AddTextbox({
- Name = "Speed",
- Default = "",
- TextDisappear = true,
- Callback = function(Value)
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
- end   
+	Name = "Speed",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+	end	  
 })
 
 Tab:AddTextbox({
- Name = "Jump",
- Default = "",
- TextDisappear = true,
- Callback = function(Value)
-  game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
- end   
+	Name = "Jump",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+	end	  
 })
 
 Tab:AddButton({
- Name = "Reset Speed",
- Callback = function()
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-   end    
+	Name = "Reset Speed",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+  	end    
 })
 
 Tab:AddButton({
- Name = "Reset JumpPower",
- Callback = function()
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-   end    
+	Name = "Reset JumpPower",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
 })
 
 local Tab = Window:MakeTab({
- Name = "Brookhaven",
- Icon = "rbxassetid://4483345998",
+	Name = "Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "REDzHUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sander X",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sander X V2",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "JuiHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "REDzHUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "W-azure",
+	Callback = function()
+      		getgenv().Team = "Pirates"
+getgenv().FixCrash = false
+getgenv().FixCrash2 = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ThunderZ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/Loader/AllGame.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Murder Mystery 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Kidachi",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nexus",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/13B8B/NEXUS/main/loadstring'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Evade",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Tbao Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "PLS Donate",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "Fake Donate",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua")))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = "REDzHUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Soon...",
+	Callback = function()
+      		print("wait v1.3.1")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Pop It",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Soon...",
+	Callback = function()
+      		print("wait v1.3.1")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Update Check",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "New Bypass AntiBan v4 "
+})
+
+local Section = Tab:AddSection({
+	Name = "Safe 100% "
+})
+
+local Section = Tab:AddSection({
+	Name = "Add New Blade Ball "
+})
+
+local Section = Tab:AddSection({
+	Name = "Add New Pop It "
+})
+
+local Section = Tab:AddSection({
+	Name = "New ClawHub v1.3.1 "
+})
+
+local Section = Tab:AddSection({
+	Name = "PLS Donate Reborn "
+}) 
