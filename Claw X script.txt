@@ -48,7 +48,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Fast Animation",
+	Name = "Emote Free",
 	Callback = function()
       		loadstring(game:HttpGet("https://rawscripts.net/raw/Write-a-Letter-Free-Emotes-3365"))()
   	end    
