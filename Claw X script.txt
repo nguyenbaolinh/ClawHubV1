@@ -32,6 +32,7 @@ Tab:AddButton({
 	Name = "Infinite Jump Remake",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/nguyenbaolinh/infjump/main/InfjumpClawX'))()
+	end    
 })
 
 Tab:AddButton({
