@@ -223,7 +223,6 @@ Tab:AddButton({
   	end    
 })
 
-
 local Tab = Window:MakeTab({
 	Name = "Update Check",
 	Icon = "rbxassetid://4483345998",
