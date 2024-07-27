@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3.2| By 😉Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3.3| By 😉Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
 	Content = "Sắp Tới Có Đợt Ban Wave nên mọi người dùng cẩn thận nhé😳 | By Giang#4854",
@@ -29,15 +29,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Infinite Jump",
+	Name = "Infinite Jump Remake",
 	Callback = function()
-      		local InfiniteJumpEnabled = true
-game:GetService("UserInputService").JumpRequest:connect(function()
-	if InfiniteJumpEnabled then
-		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-	end
-end)
-  	end
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/nguyenbaolinh/infjump/main/InfjumpClawX'))()
 })
 
 Tab:AddButton({
@@ -249,13 +243,13 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "New Free Emote (FE Character) 🟢 "
+	Name = "New Free Emote (FE Character) 🟡 "
 })
 
 local Section = Tab:AddSection({
-	Name = "New ClawHub v1.3.2 🟢"
+	Name = "New ClawHub v1.3.3 🟢"
 })
 
 local Section = Tab:AddSection({
-	Name = "PLS Donate Reborn 🟡"
+	Name = "Infinite  Jump Remake 🟢"
 }) 
