@@ -249,7 +249,7 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "New Free Emote (Fe Character) 🟢 "
+	Name = "New Free Emote (FE Character) 🟢 "
 })
 
 local Section = Tab:AddSection({
