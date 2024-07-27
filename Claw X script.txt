@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3.1| By 😉Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Claw Hub v1.3.2| By 😉Giang#4854", HidePremium = true, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Claw AI",
-	Content = "NguyenBaoLinh😉 | By Giang#4854",
+	Content = "Sắp Tới Có Đợt Ban Wave nên mọi người dùng cẩn thận nhé😳 | By Giang#4854",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -38,6 +38,20 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 	end
 end)
   	end
+})
+
+Tab:AddButton({
+	Name = "Fast Animation",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Fast-Animation-FE_744"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fast Animation",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Write-a-Letter-Free-Emotes-3365"))()
+  	end    
 })
 
 Tab:AddTextbox({
@@ -223,7 +237,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "New Bypass AntiBan v5 🟢"
+	Name = "New Bypass AntiBan v6 🟢"
 })
 
 local Section = Tab:AddSection({
@@ -231,15 +245,15 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "Add New Blade Ball 🟢"
+	Name = "New Fast Animtion (FE Character) 🟢"
 })
 
 local Section = Tab:AddSection({
-	Name = "Add New Pop It 🔴"
+	Name = "New Free Emote (Fe Character) 🟢 "
 })
 
 local Section = Tab:AddSection({
-	Name = "New ClawHub v1.3.1 🟢"
+	Name = "New ClawHub v1.3.2 🟢"
 })
 
 local Section = Tab:AddSection({
